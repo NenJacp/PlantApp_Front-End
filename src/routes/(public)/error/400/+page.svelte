@@ -27,10 +27,10 @@
             <!-- Boton para volver a la página principal -->
             <div class="pt-4">
                 <a
-                    href="/home"
+                    href="/debug"
                     class="rounded-lg bg-green-700 px-8 py-3 font-medium text-white shadow-lg transition-colors duration-200 hover:bg-gray-950 hover:shadow-xl"
                 >
-                    Volver a la página principal
+                    Volver al Debugger
                 </a>
             </div>
         </div>

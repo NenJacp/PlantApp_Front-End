@@ -9,4 +9,3 @@ export const load = ({ cookies }) => {
 
   throw redirect(307, '/login');
 };
-// test

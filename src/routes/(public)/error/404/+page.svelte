@@ -16,20 +16,22 @@
                     />
                 </div>
                 <h2 class="text-3xl font-semibold text-gray-800">
-                    Página no encontrada
+                    ¿Te has perdido en el jardín?
                 </h2>
                 <p class="mx-auto max-w-md text-lg text-gray-600">
-                    La página que estás buscando no existe o ha sido eliminada.
+                    Esta página no existe. Puede que la hayamos movido o que
+                    nunca haya existido. No te preocupes, puedes volver al
+                    inicio.
                 </p>
             </div>
 
             <!-- Boton para volver a la página principal -->
             <div class="pt-4">
                 <a
-                    href="/home"
+                    href="/debug"
                     class="rounded-lg bg-green-700 px-8 py-3 font-medium text-white shadow-lg transition-colors duration-200 hover:bg-gray-950 hover:shadow-xl"
                 >
-                    Volver a la página principal
+                    Volver al Debugger
                 </a>
             </div>
         </div>

@@ -23,11 +23,12 @@
                         />
                     </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
-                        Solicitud Incorrecta
+                        ¡Oops! Algo no cuadra
                     </h2>
                     <p class="mx-auto max-w-md text-lg text-gray-600">
-                        Hubo un problema con tu solicitud. Por favor, verifica
-                        los datos e intenta nuevamente.
+                        Tu navegador envió una solicitud que nuestro servidor no
+                        pudo entender. Revisa que todo esté correcto y vuelve a
+                        intentarlo.
                     </p>
                 {:else if $page.status === 401}
                     <div class="mb-8 flex justify-center">
@@ -38,10 +39,11 @@
                         />
                     </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
-                        No Autorizado
+                        ¡Alto ahí! Identifícate
                     </h2>
                     <p class="mx-auto max-w-md text-lg text-gray-600">
-                        Necesitas iniciar sesión para acceder a esta página.
+                        Para ver esta página, necesitas iniciar sesión. Parece
+                        que no lo has hecho o tu sesión ha expirado.
                     </p>
                 {:else if $page.status === 403}
                     <div class="mb-8 flex justify-center">
@@ -52,11 +54,12 @@
                         />
                     </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
-                        Acceso Denegado
+                        ¡Acceso Prohibido!
                     </h2>
                     <p class="mx-auto max-w-md text-lg text-gray-600">
-                        No tienes los permisos necesarios para ver este
-                        contenido.
+                        Aunque te hemos identificado, no tienes los permisos
+                        necesarios para entrar aquí. Es como tener la llave de
+                        la casa, pero no la del cuarto secreto.
                     </p>
                 {:else if $page.status === 404}
                     <div class="mb-8 flex justify-center">
@@ -67,11 +70,12 @@
                         />
                     </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
-                        Página No Encontrada
+                        ¿Te has perdido en el jardín?
                     </h2>
                     <p class="mx-auto max-w-md text-lg text-gray-600">
-                        La página que buscas no existe o fue movida a otro
-                        lugar.
+                        Esta página no existe. Puede que la hayamos movido o que
+                        nunca haya existido. No te preocupes, puedes volver al
+                        inicio.
                     </p>
                 {:else if $page.status === 500}
                     <div class="mb-8 flex justify-center">
@@ -82,11 +86,11 @@
                         />
                     </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
-                        Error Interno del Servidor
+                        ¡Houston, tenemos un problema!
                     </h2>
                     <p class="mx-auto max-w-md text-lg text-gray-600">
-                        Algo salió muy mal de nuestro lado. Nuestro equipo ya
-                        fue notificado.
+                        Algo se ha roto en nuestros servidores. Ya estamos
+                        trabajando para arreglarlo. ¡Gracias por tu paciencia!
                     </p>
                 {:else if $page.status === 502}
                     <div class="mb-8 flex justify-center">
@@ -97,11 +101,12 @@
                         />
                     </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
-                        Gateway Incorrecto
+                        Comunicación Interrumpida
                     </h2>
                     <p class="mx-auto max-w-md text-lg text-gray-600">
-                        Recibimos una respuesta inválida de uno de nuestros
-                        servidores. Intenta de nuevo en un momento.
+                        Estamos teniendo problemas para comunicarnos con uno de
+                        nuestros servicios. Es como un teléfono descompuesto.
+                        Inténtalo de nuevo en un momento.
                     </p>
                 {:else if $page.status === 503}
                     <div class="mb-8 flex justify-center">
@@ -112,13 +117,14 @@
                         />
                     </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
-                        Servicio No Disponible
+                        En Mantenimiento
                     </h2>
                     <p class="mx-auto max-w-md text-lg text-gray-600">
-                        El servicio está temporalmente sobrecargado o en
-                        mantenimiento. Por favor, intenta más tarde.
+                        Estamos haciendo algunas mejoras en nuestros servicios.
+                        Volveremos a estar en línea pronto. ¡Disculpa las
+                        molestias!
                     </p>
-                    <!-- {:else if $page.status === 504} -->
+                {:else if $page.status === 504}
                     <div class="mb-8 flex justify-center">
                         <img
                             src="/Error/504.png"
@@ -127,11 +133,12 @@
                         />
                     </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
-                        Tiempo de Espera Agotado
+                        ¿Se fue la señal?
                     </h2>
                     <p class="mx-auto max-w-md text-lg text-gray-600">
-                        No obtuvimos una respuesta a tiempo de uno de nuestros
-                        servicios. Intenta recargar la página.
+                        Uno de nuestros servicios está tardando demasiado en
+                        responder. Puede que esté sobrecargado. Por favor, ten
+                        paciencia y vuelve a intentarlo.
                     </p>
                 {:else}
                     <div class="mb-8 flex justify-center">
@@ -153,10 +160,10 @@
             <!-- Boton para volver a la página principal -->
             <div class="pt-4">
                 <a
-                    href="/home"
+                    href="/"
                     class="rounded-lg bg-green-700 px-8 py-3 font-medium text-white shadow-lg transition-colors duration-200 hover:bg-gray-950 hover:shadow-xl"
                 >
-                    Volver a la página principal
+                    Volver a un lugar seguro
                 </a>
             </div>
         </div>

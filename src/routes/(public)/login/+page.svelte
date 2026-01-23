@@ -20,7 +20,7 @@
 </script>
 
 <!-- Estructura y diseño -->
-<div class="flex min-h-screen items-center justify-center bg-gray-200">
+<main class="flex min-h-screen items-center justify-center bg-gray-200">
     <div class="w-full max-w-sm rounded-lg bg-white p-6 shadow-md">
         <div class="flex justify-center">
             <img src="/Brand/PlantApp.png" alt="Logo" class="h-24 w-24" />
@@ -72,4 +72,10 @@
             </button>
         </form>
     </div>
-</div>
+</main>
+<footer class="fixed bottom-0 left-0 w-full bg-gray-200 p-4">
+    <button class="bg-red-500 p-1.5 rounded">
+        <a href="/debug" class="text-white hover:text-gray-800">Ir a Debugger</a
+        >
+    </button>
+</footer>
