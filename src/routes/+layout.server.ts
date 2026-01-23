@@ -3,9 +3,9 @@ import type { LayoutServerLoad } from './$types';
 
 export const load: LayoutServerLoad = async ({ cookies, url }) => {
   const allCookies = cookies.getAll();
-  console.log("All cookies on server (layout):", allCookies);
+  //console.log("All cookies on server (layout):", allCookies);
   const token = cookies.get('jwt');
-  console.log("JWT Token on server (layout):", token);
+  //console.log("JWT Token on server (layout):", token);
 
   if (url.pathname === '/') {
     if (token) {

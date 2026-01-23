@@ -75,7 +75,13 @@
 </main>
 <footer class="fixed bottom-0 left-0 w-full bg-gray-200 p-4">
     <button class="bg-red-500 p-1.5 rounded">
-        <a href="/debug" class="text-white hover:text-gray-800">Ir a Debugger</a
+        <a href="/debug" class="text-white hover:text-gray-800">
+            Ir a Debugger</a
+        >
+    </button>
+    <button class="bg-red-500 p-1.5 rounded">
+        <a href="/debug-api" class="text-white hover:text-gray-800"
+            >Ir a Debugger-API</a
         >
     </button>
 </footer>
