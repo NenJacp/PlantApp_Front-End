@@ -12,7 +12,7 @@ Este es el repositorio del front-end para el proyecto PlantApp, desarrollado con
 ## API Alojada en el repositorio 
 
 [API](https://github.com/NenJacp/PlantApp_Back-End.git)
-### NOTA: La api no es requerida si solo quiere ver las paginas de errores, usando el boton de ir a debugger, si quiere verlas con respecto a respuestas que devuelva la api puede hacerlo pero requerida de un .env que tenga los siguentes claves
+### NOTA: La api no es requerida si solo quiere ver las paginas de errores, usando el boton de ir a debugger, si quiere verlas con respecto a respuestas que devuelva la api puede hacerlo pero requeriras de un .env que tenga los siguentes claves
 ### Variables de Entorno requeridas:
 #### DB_HOST
 Dirección del servidor de base de datos PostgreSQL.  
@@ -53,6 +53,7 @@ No debe compartirse ni subirse al repositorio.
 
 - El archivo `.env` no lo subire por lo cual tu tendras que poner valores, que no necesariamente tienen que ser validas pero son importantes
 - ya que las intentara cargar el Program.cs de la capa Presentation
+- Con esto ya puedes usar el boton ir a debugger-api
 
 
 ## Instalación y Ejecución
