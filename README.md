@@ -9,6 +9,10 @@ Este es el repositorio del front-end para el proyecto PlantApp, desarrollado con
 *   Jesús Augusto Gamboa Sosa
 *   Jade Alondra Ávila Collí
 
+## API Alojada en el repositorio 
+
+https://github.com/NenJacp/PlantApp_Back-End.git
+
 ## Instalación y Ejecución
 
 Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu sistema.
