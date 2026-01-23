@@ -17,7 +17,7 @@
                 {#if $page.status === 400}
                     <div class="mb-8 flex justify-center">
                         <img
-                            src="/Error/400.jpeg"
+                            src="/Error/400.png"
                             alt="Error 400"
                             class="h-60 w-60"
                         />
@@ -32,7 +32,7 @@
                 {:else if $page.status === 401}
                     <div class="mb-8 flex justify-center">
                         <img
-                            src="/Error/401.jpeg"
+                            src="/Error/401.png"
                             alt="Error 401"
                             class="h-60 w-60"
                         />
@@ -46,7 +46,7 @@
                 {:else if $page.status === 403}
                     <div class="mb-8 flex justify-center">
                         <img
-                            src="/Error/403.jpeg"
+                            src="/Error/403.png"
                             alt="Error 403"
                             class="h-60 w-60"
                         />
@@ -61,7 +61,7 @@
                 {:else if $page.status === 404}
                     <div class="mb-8 flex justify-center">
                         <img
-                            src="/Error/404.jpeg"
+                            src="/Error/404.png"
                             alt="Error 404"
                             class="h-60 w-60"
                         />
@@ -76,7 +76,7 @@
                 {:else if $page.status === 500}
                     <div class="mb-8 flex justify-center">
                         <img
-                            src="/Error/500.jpeg"
+                            src="/Error/500.png"
                             alt="Error 500"
                             class="h-60 w-60"
                         />
@@ -91,7 +91,7 @@
                 {:else if $page.status === 502}
                     <div class="mb-8 flex justify-center">
                         <img
-                            src="/Error/502.jpeg"
+                            src="/Error/502.png"
                             alt="Error 502"
                             class="h-60 w-60"
                         />
@@ -106,7 +106,7 @@
                 {:else if $page.status === 503}
                     <div class="mb-8 flex justify-center">
                         <img
-                            src="/Error/503.jpeg"
+                            src="/Error/503.png"
                             alt="Error 503"
                             class="h-60 w-60"
                         />
@@ -121,7 +121,7 @@
                     <!-- {:else if $page.status === 504} -->
                     <div class="mb-8 flex justify-center">
                         <img
-                            src="/Error/504.jpeg"
+                            src="/Error/504.png"
                             alt="Error 504"
                             class="h-60 w-60"
                         />

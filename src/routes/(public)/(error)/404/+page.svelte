@@ -10,7 +10,7 @@
                 <!-- Lógica para mensajes personalizados -->
                 <div class="mb-8 flex justify-center">
                     <img
-                        src="/Error/404.jpeg"
+                        src="/Error/404.png"
                         alt="Error 404"
                         class="h-60 w-60"
                     />

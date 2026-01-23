@@ -10,7 +10,7 @@
                 <!-- Lógica para mensajes personalizados -->
                 <div class="mb-8 flex justify-center">
                     <img
-                        src="/Error/502.jpeg"
+                        src="/Error/502.png"
                         alt="Error 502"
                         class="h-60 w-60"
                     />

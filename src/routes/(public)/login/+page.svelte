@@ -12,7 +12,7 @@
         }
 
         if (email === "test@test.com" && password === "1234") {
-            goto("/principal");
+            goto("/home");
         } else {
             error = "Credenciales incorrectas";
         }
