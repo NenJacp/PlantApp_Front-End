@@ -5,9 +5,6 @@
 <main class="flex min-h-screen items-center justify-center bg-gray-100 p-4">
     <div class="w-full max-w-2xl text-center">
         <!-- Icono/Logo de PlantApp -->
-        <div class="mb-8 flex justify-center">
-            <img src="/Brand/PlantApp.png" alt="Plant Icon" class="h-60 w-60" />
-        </div>
 
         <!-- Error Estatus -->
         <div class="space-y-6">
@@ -18,6 +15,13 @@
 
                 <!-- Lógica para mensajes personalizados -->
                 {#if $page.status === 400}
+                    <div class="mb-8 flex justify-center">
+                        <img
+                            src="/Error/400.jpeg"
+                            alt="Error 400"
+                            class="h-60 w-60"
+                        />
+                    </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
                         Solicitud Incorrecta
                     </h2>
@@ -26,6 +30,13 @@
                         los datos e intenta nuevamente.
                     </p>
                 {:else if $page.status === 401}
+                    <div class="mb-8 flex justify-center">
+                        <img
+                            src="/Error/401.jpeg"
+                            alt="Error 401"
+                            class="h-60 w-60"
+                        />
+                    </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
                         No Autorizado
                     </h2>
@@ -33,6 +44,13 @@
                         Necesitas iniciar sesión para acceder a esta página.
                     </p>
                 {:else if $page.status === 403}
+                    <div class="mb-8 flex justify-center">
+                        <img
+                            src="/Error/403.jpeg"
+                            alt="Error 403"
+                            class="h-60 w-60"
+                        />
+                    </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
                         Acceso Denegado
                     </h2>
@@ -41,6 +59,13 @@
                         contenido.
                     </p>
                 {:else if $page.status === 404}
+                    <div class="mb-8 flex justify-center">
+                        <img
+                            src="/Error/404.jpeg"
+                            alt="Error 404"
+                            class="h-60 w-60"
+                        />
+                    </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
                         Página No Encontrada
                     </h2>
@@ -49,6 +74,13 @@
                         lugar.
                     </p>
                 {:else if $page.status === 500}
+                    <div class="mb-8 flex justify-center">
+                        <img
+                            src="/Error/500.jpeg"
+                            alt="Error 500"
+                            class="h-60 w-60"
+                        />
+                    </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
                         Error Interno del Servidor
                     </h2>
@@ -57,6 +89,13 @@
                         fue notificado.
                     </p>
                 {:else if $page.status === 502}
+                    <div class="mb-8 flex justify-center">
+                        <img
+                            src="/Error/502.jpeg"
+                            alt="Error 502"
+                            class="h-60 w-60"
+                        />
+                    </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
                         Gateway Incorrecto
                     </h2>
@@ -65,6 +104,13 @@
                         servidores. Intenta de nuevo en un momento.
                     </p>
                 {:else if $page.status === 503}
+                    <div class="mb-8 flex justify-center">
+                        <img
+                            src="/Error/503.jpeg"
+                            alt="Error 503"
+                            class="h-60 w-60"
+                        />
+                    </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
                         Servicio No Disponible
                     </h2>
@@ -72,7 +118,14 @@
                         El servicio está temporalmente sobrecargado o en
                         mantenimiento. Por favor, intenta más tarde.
                     </p>
-                {:else if $page.status === 504}
+                    <!-- {:else if $page.status === 504} -->
+                    <div class="mb-8 flex justify-center">
+                        <img
+                            src="/Error/504.jpeg"
+                            alt="Error 504"
+                            class="h-60 w-60"
+                        />
+                    </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
                         Tiempo de Espera Agotado
                     </h2>
@@ -81,6 +134,13 @@
                         servicios. Intenta recargar la página.
                     </p>
                 {:else}
+                    <div class="mb-8 flex justify-center">
+                        <img
+                            src="/Brand/PlantApp.png"
+                            alt="Plant Icon"
+                            class="h-60 w-60"
+                        />
+                    </div>
                     <h2 class="text-3xl font-semibold text-gray-800">
                         Ha Ocurrido un Error
                     </h2>
