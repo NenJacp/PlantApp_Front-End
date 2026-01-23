@@ -12,6 +12,48 @@ Este es el repositorio del front-end para el proyecto PlantApp, desarrollado con
 ## API Alojada en el repositorio 
 
 [API](https://github.com/NenJacp/PlantApp_Back-End.git)
+### NOTA: La api no es requerida si solo quiere ver las paginas de errores, usando el boton de ir a debugger, si quiere verlas con respecto a respuestas que devuelva la api puede hacerlo pero requerida de un .env que tenga los siguentes claves
+### Variables de Entorno requeridas:
+#### DB_HOST
+Dirección del servidor de base de datos PostgreSQL.  
+Ejemplo: `localhost` o el nombre del servicio en Docker.
+
+#### DB_PORT
+Puerto en el que escucha PostgreSQL.  
+Normalmente: `5432`.
+
+#### DB_DATABASE
+Nombre de la base de datos que usará PlantApp.
+
+#### DB_USERNAME
+Usuario de la base de datos PostgreSQL.
+
+#### DB_PASSWORD
+Contraseña del usuario de la base de datos.
+
+---
+
+#### JWT_ISSUER
+Identificador del emisor del token JWT.  
+Normalmente el nombre de la aplicación (ej. `PlantApp`).
+
+#### JWT_AUDIENCE
+Audiencia a la que están destinados los tokens JWT.  
+Usualmente el mismo valor que el emisor.
+
+#### JWT_SECRET_KEY
+Clave secreta usada para firmar y validar los tokens JWT.
+
+**Debe ser una cadena larga y segura (mínimo 32 caracteres).**  
+No debe compartirse ni subirse al repositorio.
+
+---
+
+### Notas importantes
+
+- El archivo `.env` no lo subire por lo cual tu tendras que poner valores, que no necesariamente tienen que ser validas pero son importantes
+- ya que las intentara cargar el Program.cs de la capa Presentation
+
 
 ## Instalación y Ejecución
 
