@@ -6,29 +6,29 @@
   Son como "alias" para tus valores, lo que facilita mantener la consistencia.
 */
 :root {
-    --primary-color: #4ade80;
-    /* Un verde brillante */
-    --primary-hover-color: #22c55e;
-    /* Un verde más oscuro para hover */
-    --text-color: #374151;
-    /* Gris oscuro para texto */
-    --background-color: #f3f4f6;
-    /* Un gris muy claro para el fondo */
-    --surface-color: #ffffff;
-    /* Blanco para tarjetas y superficies */
+  --primary-color: #4ade80;
+  /* Un verde brillante */
+  --primary-hover-color: #22c55e;
+  /* Un verde más oscuro para hover */
+  --text-color: #374151;
+  /* Gris oscuro para texto */
+  --background-color: #f3f4f6;
+  /* Un gris muy claro para el fondo */
+  --surface-color: #ffffff;
+  /* Blanco para tarjetas y superficies */
 
-    /* Tipografía */
-    --font-family-main: "Montserrat", sans-serif;
-    /* Fuente principal actualizada */
+  /* Tipografía */
+  --font-family-main: "Montserrat", sans-serif;
+  /* Fuente principal actualizada */
 }
 
 /*
   Aquí aplicas estilos globales a elementos HTML.
 */
 body {
-    font-family: var(--font-family-main);
-    color: var(--text-color);
-    background-color: var(--background-color);
-    margin: 0;
-    padding: 0;
+  font-family: var(--font-family-main);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
 }
